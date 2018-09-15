@@ -9,11 +9,11 @@ fi
 cd /tmp
 git clone git://github.com/phvilasboas/fonts.git
 
-echo "copying fonts to /usr/share/fonts/TTF/..."
-mkdir -p /usr/share/fonts/TTF/
-cp /tmp/msfonts/fonts/* /usr/share/fonts/TTF/ -rf
+echo "Copiando Fontes Para /usr/share/fontes/TTF/..."
+mkdir -p /usr/share/fontes/TTF/
+cp /tmp/fonts/fontes/* /usr/share/fontes/TTF/ -rf
 
-echo "updating all caches..."
+echo "Atualizando caches"
 fc-cache -vf
 mkfontscale
 mkfontdir

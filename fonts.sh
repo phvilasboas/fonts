@@ -7,7 +7,7 @@ if ! [[ -x $(which git) ]]; then
 fi
 
 cd /tmp
-git clone git://github.com/phvilasboas/fonts.git
+git clone https://github.com/phvilasboas/fonts.git
 
 echo "Copiando Fontes Para /usr/share/fontes/TTF/..."
 mkdir -p /usr/share/fontes/TTF/
